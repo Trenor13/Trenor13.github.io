@@ -249,3 +249,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+
+remote_theme: "jeffreytse/jekyll-theme-yat"
+
+plugins:
+  - jekyll-remote-theme
