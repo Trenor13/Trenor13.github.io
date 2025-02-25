@@ -1,0 +1,19 @@
+current directory: /home/vgarrigues/github/Trenor13.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.1 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/vgarrigues/github/Trenor13.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250225-351872-prleu1 sitelibdir\=./.gem.20250225-351872-prleu1 clean
+
+current directory: /home/vgarrigues/github/Trenor13.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250225-351872-prleu1 sitelibdir\=./.gem.20250225-351872-prleu1
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/vgarrigues/github/Trenor13.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250225-351872-prleu1 sitelibdir\=./.gem.20250225-351872-prleu1 install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250225-351872-prleu1
+
+current directory: /home/vgarrigues/github/Trenor13.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250225-351872-prleu1 sitelibdir\=./.gem.20250225-351872-prleu1 clean

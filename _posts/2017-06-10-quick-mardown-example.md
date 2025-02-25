@@ -1,12 +1,32 @@
 ---
 layout: post
-title: Quick markdown example
-subtitle: This is a quick markdown example
+title: CTF Anonymous
+subtitle: Dificult Medium
 excerpt_image: https://github.com/jeffreytse/jekyll-theme-yat/assets/9413601/2ed22d49-90b1-4f7e-8e8f-b77b21dee505
 categories: markdown
 tags: [example]
 top: 2
 ---
+
+## <font color=00BFFF>0 ➜</font> Preparación del laboratorio
+<font color=00BFFF>➜</font> **Kali** > `cd Downloads`  
+<font color=00BFFF>➜</font> **Kali** > `sudo openvpn tu_usuario.ovpn`  
+
+![image](/home/vgarrigues/github/Trenor13.github.io/assets/images/CTF.Anonymous/1.jpeg)
+
+![example image](assets/images/CTF.Anonymous/1.jpeg)
+
+
+![example image](assets/images/CTF.Anonymous/1.jpeg)
+
+![alt text](../assets/images/CTF.Anonymous/1.jpeg)
+
+![image](assets/images/CTF.Anonymous/1.jpeg)
+
+![image](../assets/images/CTF.Anonymous/1.jpeg)
+
+![image](image.png)
+![image](../assets/images/1.jpeg)
 
 ![banner](https://github.com/jeffreytse/jekyll-theme-yat/assets/9413601/2ed22d49-90b1-4f7e-8e8f-b77b21dee505)
 
