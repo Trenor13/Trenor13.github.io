@@ -168,8 +168,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a5a67c09642e0d1b",
+  "active": "14f360d317d72c91",
   "lastOpenFiles": [
+    "Gemfile.lock",
     "_posts/CTF - Bolt - TryHackMe.md"
   ]
 }
