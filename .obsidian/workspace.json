@@ -165,12 +165,34 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "14f360d317d72c91",
   "lastOpenFiles": [
     "Gemfile.lock",
+    "_site/jekyll-theme-yat.gemspec",
+    "_site/assets/videos/devstories.webm",
+    "_site/assets/videos",
+    "_site/assets/js/main.js",
+    "_site/assets/js",
+    "_site/assets/images/default-image.jpeg",
+    "_site/README.md",
+    "_site/LICENSE.txt",
+    "_site/assets/images/banners/home.jpeg",
+    "_site/assets/images/d9cb90c2d1bdb661b1cf5a9a89e04893.png",
+    "_site/assets/images/c422347ce0ad846d87f8cb2d5d4018f2.png",
+    "_site/assets/images/c0c508a8f0875b57ee8e16441f4d619d.png",
+    "_site/assets/images/c1e8e4b812ae8ed67a2fe50ff00f55d0.png",
+    "_site/assets/images/c04659b4644207ee340c3e4c9f215fe2.png",
+    "_site/assets/images/banners",
+    "_site/assets/images/b5a58bdc230152990311426b608ffada.png",
+    "_site/assets/images/96195bdf6a852359df3d3ad71d81afd8.png",
+    "_site/assets/images/94a46f183e1ec746fb579d669c1046a9.png",
+    "_site/assets/css/style.css",
+    "_site/assets/css/main.css",
+    "_site/assets/images",
     "_posts/CTF - Bolt - TryHackMe.md"
   ]
 }

@@ -17,42 +17,24 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you
 # use 'bundle exec jekyll serve'. If you change this file, please restart
 # the server process.
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+# Site settings
+title: CTF Análisis y Resoluciones
+email: garriguestrenorlanc@gmail.com
+author: Trenor13
 
 # Copyright setting
-# You can use any html code, currently below placeholders are available:
-# * current year: {currentYear}
-# * author: {author} (Value is the same as site.author)
-# * copyright: (c) - ©
-# * copyleft: (cleft)
-# * sound recording copyright: (p) - ℗
-#
-# For example:
-#   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
-#   "Copyright © 2017-2021 Foobar"
-#
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >- 
+  Los CTFs pueden ser apasionantes, pero también frustrantes si no se comprenden bien los pasos clave. Aquí encontrarás writeups detallados con explicaciones técnicas claras, diseñados para que aprendas sin perderte en el intento. Cada análisis sigue un enfoque paso a paso, haciendo el aprendizaje accesible y sin rodeos innecesarios.
+  Cuando crees que todo está bajo control y de repente nada funciona… estos writeups te evitarán ese momento.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
+baseurl: "/"  # the subpath of your site, e.g. /blog
+url: "https://trenor13.github.io"  # the base hostname & protocol for your site, e.g. https://example.com
+favicon: ""  # the favicon for your site
 
 # Yat date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
   date_format: "%b %d, %Y"
 
@@ -70,12 +52,12 @@ yat:
 # enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "es"  # Default language set to Spanish (you can adjust this as needed)
 
-# Translate languges
+# Translate languages
 # langs refer to https://cloud.google.com/translate/docs/languages
 # translate_langs:
 #   - lang: en
@@ -159,12 +141,12 @@ yat:
 #   - tags.html
 #   - about.md
 
-# Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+Page default value:
+defaults:
+   home:
+     heading: "CTF Análisis y Resoluciones"
+     subheading: "Los CTFs pueden ser apasionantes, pero también frustrantes si no se comprenden bien los pasos clave. Aquí encontrarás writeups detallados con explicaciones técnicas claras, diseñados para que aprendas sin perderte en el intento. Cada análisis sigue un enfoque paso a paso, haciendo el aprendizaje accesible y sin rodeos innecesarios. Cuando crees que todo está bajo control y de repente nada funciona… estos writeups te evitarán ese momento."
+     banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -249,3 +231,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+
+# Add this section at the end of your _config.yml
+collections:
+  ctf:
+    output: true
